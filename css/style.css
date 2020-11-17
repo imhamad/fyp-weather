@@ -1,0 +1,47 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.custom-navbar{
+    z-index: 1;
+}
+.home-section{
+    margin-top: -58px;
+}
+
+.change{
+    background-color:  goldenrod;
+    color: white;
+    font-weight: bold;
+    padding: 0.2em;
+    border-bottom: tomato;
+}
+
+.custom__background {
+    box-shadow: 0.5em 0 0 #fd5f00, -0.5em 0 0 #fd5f00;
+    background: orange;
+    color: white;
+    padding: .2em;
+    display: block !important;
+    align-content: center;
+    align-items: center;
+    max-width: 45%;
+    text-align: center;
+    position: relative;
+    bottom:25%;
+    left: 5%;
+    position: relative;
+    bottom: 20em !important;
+    left: 25%;
+}
+
+/* Nasa  */
+.map .responsive-iframe {
+    min-width: 100%;
+    min-height: 100vh;
+    display: block;
+    overflow: scroll;
+    padding: 0;
+    margin: 0;
+}
